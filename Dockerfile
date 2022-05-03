@@ -10,7 +10,7 @@ RUN apt-get install -y build-essential git vim
 COPY * /build/
 
 # RUN git clone https://github.com/openaudible/rt.git 
-RUN cd rt && make
+RUN  make
 
 ENTRYPOINT ["bash"]
 
